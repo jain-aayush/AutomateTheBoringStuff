@@ -13,7 +13,7 @@ from selenium.webdriver.common.keys import Keys
 driver = webdriver.Chrome()
 driver.get("https://gabrielecirulli.github.io/2048/")
 html = driver.find_element_by_tag_name('html')
-
+    
 while True:
     html.send_keys(Keys.UP)
     html.send_keys(Keys.RIGHT)
